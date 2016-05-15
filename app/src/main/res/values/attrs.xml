@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="PayRidioButton">
+		<attr name="mtitle" format="reference|string" />
+		<attr name="mlogo" format="reference|color" />
+		<attr name="desc" format="reference|string" />
+		<attr name="checked" format="boolean" />
+		<attr name="radio" format="reference"/>
+	</declare-styleable>
+	
+	<!-- Standard orientation constant. -->
+    <attr name="orientation">
+        <!-- Defines an horizontal widget. -->
+        <enum name="horizontal" value="0" />
+        <!-- Defines a vertical widget. -->
+        <enum name="vertical" value="1" />
+    </attr>
+	
+	<declare-styleable name="PayRidioGroup">
+	    <!-- The id of the child radio button that should be checked by default
+             within this radio group. -->
+        <attr name="checkedButton" format="integer" />
+        <!-- Should the radio group be a column or a row?  Use "horizontal"
+             for a row, "vertical" for a column.  The default is
+             vertical. -->
+        <attr name="orientation" />
+	</declare-styleable>
+</resources>

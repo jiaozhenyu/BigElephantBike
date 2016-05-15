@@ -1,0 +1,80 @@
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/layout">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/validate_xml"
+    android:background="@drawable/gray"
+    tools:context="com.example.administrator.bigelephantbike.ValidatePhoneActivity">
+
+    <com.example.administrator.bigelephantbike.backTitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.administrator.bigelephantbike.backTitleLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:stretchColumns="0">
+        <TableRow >
+            <EditText
+                android:id="@+id/phone"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_sharp"
+                android:hint="手机号"
+                />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:id="@+id/validateBtn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/validate_txt"
+                android:enabled="false"
+                android:background="@drawable/corner_sharp_gray"
+                android:textColor="@color/white"
+                android:textSize="17dp"/>
+
+        </TableRow>
+        </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+        <TableRow
+            android:layout_width="match_parent">
+            <com.example.administrator.bigelephantbike.MyEditText
+                android:id="@+id/validate_code"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/validate_code"
+                android:drawableRight="@drawable/receive_fail"
+                android:background="@drawable/corner_sharp"/>
+        </TableRow>
+        <TableRow android:paddingTop="15dp">
+            <Button
+                android:id="@+id/start_btn"
+                android:layout_height="wrap_content"
+                android:text="@string/start"
+                android:background="@drawable/corner_sharp_gray"
+                android:textColor="@color/white"
+                android:enabled="false"
+                android:textSize="17dp"/>
+        </TableRow>
+        <TableRow android:paddingTop="10dp">
+            <TextView
+                android:id="@+id/protocol"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="@string/protical_link"
+                android:layout_gravity="center"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</FrameLayout>

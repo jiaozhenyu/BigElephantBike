@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.example.administrator.bigelephantbike"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile files('libs/Acadiatech_JSON.jar')
+    compile files('src/main/java/libs/Acadiatech_JSON.jar')
+    compile files('src/main/java/libs/zxing.jar')
+    compile files('src/main/java/libs/android-support-v4.jar')
+    compile files('src/main/java/libs/BaiduLBS_Android.jar')
+    compile files('src/main/java/libs/commons-httpclient-3.0.1.jar')
+    compile files('src/main/java/libs/commons-codec-1.4.jar')
+    compile files('src/main/java/libs/commons-logging-1.1.1.jar')
+    compile files('src/main/java/libs/commons-codec-1.6.jar')
+    compile files('src/main/java/libs/fluent-hc-4.2.5.jar')
+    compile files('src/main/java/libs/httpclient-4.2.5.jar')
+    compile files('src/main/java/libs/httpclient-cache-4.2.5.jar')
+    compile files('src/main/java/libs/httpcore-4.2.4.jar')
+    compile files('src/main/java/libs/httpmime-4.2.5.jar')
+    compile files('src/main/java/libs/baidumapapi_base_v3_7_3.jar')
+    compile files('src/main/java/libs/baidumapapi_map_v3_7_3.jar')
+    compile files('src/main/java/libs/baidumapapi.jar')
+    compile files('src/main/java/libs/baidumapapi_radar_v3_7_3.jar')
+    compile files('src/main/java/libs/baidumapapi_search_v3_7_3.jar')
+    compile files('src/main/java/libs/baidumapapi_util_v3_7_3.jar')
+    compile files('src/main/java/libs/baidumapapi_cloud_v3_7_3.jar')
+}

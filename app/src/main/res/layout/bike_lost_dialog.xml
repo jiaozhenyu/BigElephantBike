@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40px"
+        android:text="@string/bike_lost_tip"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_marginRight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirm_lost"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:textSize="40px"
+            android:text="@string/confirm_lost"
+            android:textColor="@color/color_ptz_blue" />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_height="match_parent"
+            android:layout_width="1dp"
+            android:background="@color/black">
+        </View>
+        <Button
+            android:layout_marginLeft="40dp"
+            android:text="@string/find_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/find_again"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:textSize="40px"
+            android:textColor="@color/color_ptz_blue" />
+    </LinearLayout>
+</LinearLayout>

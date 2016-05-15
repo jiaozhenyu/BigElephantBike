@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">BigElephantBike</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="loadTitle"><strong>正在更新数据</strong></string>
+    <string name="loadContent"><strong>请稍候……</strong></string>
+    <string name="login_login">登陆</string>
+    <string name="login_hint_password">输入密码</string>
+    <string name="login_hint_name">输入用户名</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="device_group">设备组</string>
+    <string name="title_activity_mipca_activity_capture">MipcaActivityCapture</string>
+    <string name="validate_phone_txt">验证手机</string>
+    <string name="title_activity_validate_phone">ValidatePhoneActivity</string>
+    <string name="validate_txt">验证</string>
+    <string name="validate_code">验证码</string>
+    <string name="start">开始</string>
+    <string name="protical_link">点击"开始"，即表示您同意<a href="http://www.it165.net/pro/html/201501/32640.html">《法律声明及隐私政策》</a></string>
+    <string name="title_activity_validate_id">ValidateIdActivity</string>
+    <string name="validate_id">身份认证</string>
+    <string name="id_card_pic">点击上传 <u>身份证正面</u> 照片</string>
+    <string name="student_card_pic">点击上传 <u>学生证正面</u> 照片</string>
+    <string name="submit_application">提交申请</string>
+    <string name="title_activity_charge">ChargeActivity</string>
+    <string name="charging">正在计费中</string>
+    <string name="count_sum">费用总计:</string>
+    <string name="default_money">￥00.00</string>
+    <string name="use_time">使用时长：</string>
+    <string name="defailt_time">00:00:00:00</string>
+    <string name="bike_id">单车编号:0000</string>
+    <string name="unlock_key">解锁密码</string>
+    <string name="tips">将四位密码输入车锁即可开锁</string>
+    <string name="question"><u>遇到问题？</u></string>
+    <string name="little_tips">小提示：请将单车骑回校内再点击“还车结账”，如果在校外锁车后，点击“恢复单车”可以重新解锁。
+</string>
+    <string name="return_bike">还车结账</string>
+    <string name="recover_bike">恢复单车</string>
+    <string name="input_return_code">╳\t\t\t\t\t\t\t请输入还车密码</string>
+    <string name="return_tips">\t锁上车锁后，车锁的显示屏上会显示六位还车密码，如果显示屏没有显示密码，请摁下“显示”键。
+</string>
+    <string name="error_password">密码错误，请重试</string>
+    <string name="ok">确认</string>
+    <string name="not_in_school">单车未停放在校园内，还车失败</string>
+    <string name="charge_end">计费结束</string>
+    <string name="title_activity_payment">PaymentActivity</string>
+    <string name="pay">确认支付</string>
+    <string name="pay_question">任何支付问题，请联系客服：400-123-123</string>
+    <string name="not_enough">余额不足，请选择其他支付方式</string>
+    <string name="pay_fail">支付失败，请重试</string>
+    <string name="input_recover_tips">╳\t\t\t\t\t\t\t请输入恢复密码</string>
+    <string name="recover_tips">\t在车锁锁上的情况下，摁下“显示”键，车锁上的显示屏会显示六位恢复密码。
+　　在车锁锁上的情况下，摁下“显示”键，车锁上的显示屏会显示六位恢复密码。</string>
+    <string name="title_activity_meet_question">MeetQuestion</string>
+    <string name="meet_question">遇到问题</string>
+    <string name="question_type">问题类型*</string>
+    <string name="question_des">问题描述（可不填）</string>
+    <string name="input_des">请输入问题描述</string>
+    <string name="location">单车的位置*</string>
+    <string name="upload_tips">上传凭证 最多3张</string>
+    <string name="cancel">取消</string>
+    <string name="take_picture">拍照</string>
+    <string name="choose_from_pics">从相册选择</string>
+
+    <string name="select_album">选择相册</string>
+    <string name="select_image">选择图片</string>
+    <string name="latest_image">最近照片</string>
+    <string name="photo_album">相册</string>
+
+    <string name="main_confirm">确定</string>
+    <string name="main_cancel">取消</string>
+    <string name="main_back">返回</string>
+    <string name="submit_btn">提交</string>
+    <string name="bike_lost_tip">如果在使用期间丢失单车，您需要赔偿200元，请再次确认单车已经丢失！</string>
+    <string name="confirm_lost">确认丢失</string>
+    <string name="find_again">我再找找</string>
+    <string name="return_fail">非常抱歉，大象单车没能带给你最完美的出行体验，大象单车将会立即进行维修，并在核实后给予您本次车费金额5倍的赔偿。在此期间，您的账户将会被临时冻结，请您谅解！
+</string>
+    <string name="else_question">提交成功！大象单车将会立即前往维修车辆，您可以使用其他单车出行。
+</string>
+
+
+    <color name="gray_bg">#cccccc</color>
+    <color name="gray_dark_bg">#666666</color>
+
+    <!--主题颜色-->
+    <color name="top_color">#fd4b4d</color>
+    <!-- 菜单栏 按钮文字颜色 -->
+    <color name="topbar_btn_text_color">#ffffff</color>
+
+    <!-- 返回按钮 字体颜色 -->
+    <color name="back_color_noclick">#ffff</color>
+    <color name="back_color_click">#8fff</color>
+    <string name="title_activity_ｔｅｓｔ_ａｃｔｉｖｉｔｙ">TestActivity</string>
+    <string name="title_activity_test">Test</string>
+</resources>
